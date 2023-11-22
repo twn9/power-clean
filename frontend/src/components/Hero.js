@@ -1,9 +1,11 @@
 export default function Hero() {
     return (
-      <div className="text-center p-10 bg-blue-300">
-        <h1 className="text-4xl font-bold mb-2">Welcome to Our Website</h1>
-        <p className="mb-4">We offer high quality services</p>
-        <button className="bg-blue-500 text-white py-2 px-4 rounded">Learn More</button>
+      <div className="bg-blue-100 min-h-screen flex items-center justify-center">
+        <div className="container mx-auto px-4 py-10 text-center">
+          <h2 className="text-3xl font-bold text-blue-700">Professional Driveway Cleaning</h2>
+          <p className="text-gray-600 mt-2">Making your driveway look new!</p>
+          <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
+        </div>
       </div>
     );
   };

@@ -1,4 +1,6 @@
 import './About.css'
+import washer from '../images/washer.png';
+
 
 export default function About() {
   return (

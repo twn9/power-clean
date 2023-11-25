@@ -2,7 +2,7 @@ import star from '../images/star.png';
 
 export default function Nav() {
   return (
-    <nav className="fixed top-5 left-20 right-20 bg-white shadow-lg z-50 rounded-3xl">
+    <nav className="fixed top-5 left-20 right-20 bg-cyan-400 shadow-lg z-50 rounded-3xl">
       <div className="mx-auto px-5 py-3">
         <div className="flex justify-between items-center">
           {/* Logo */}
